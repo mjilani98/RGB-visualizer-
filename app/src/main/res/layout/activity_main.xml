@@ -24,7 +24,7 @@
         style="@style/editTextStyle"
         android:background="@color/Red"
         android:layout_marginLeft="50dp"
-
+        android:inputType="numberDecimal"
         />
 
     <!--Green EditText input-->
@@ -33,6 +33,7 @@
         style="@style/editTextStyle"
         android:layout_toEndOf="@id/inputRed"
         android:background="@color/Lime"
+        android:inputType="numberDecimal"
         />
 
     <!--Blue EditText input-->
@@ -41,6 +42,7 @@
         style="@style/editTextStyle"
         android:layout_toEndOf="@id/inputGtreen"
         android:background="@color/Blue"
+        android:inputType="numberDecimal"
         />
 
 </RelativeLayout>
